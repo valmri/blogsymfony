@@ -1,17 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d70f44be-c220-4874-b0d1-6f032b3c0323" name="Changes" comment="Ajout de la page d'accueil">
-      <change afterPath="$PROJECT_DIR$/blog/templates/blog/show.html.twig" afterDir="false" />
+    <list default="true" id="d70f44be-c220-4874-b0d1-6f032b3c0323" name="Changes" comment="Ajout d'article">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog/.env" beforeDir="false" afterPath="$PROJECT_DIR$/blog/.env" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/blog/composer.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/blog/composer.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog/config/bundles.php" beforeDir="false" afterPath="$PROJECT_DIR$/blog/config/bundles.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog/src/Controller/BlogController.php" beforeDir="false" afterPath="$PROJECT_DIR$/blog/src/Controller/BlogController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog/symfony.lock" beforeDir="false" afterPath="$PROJECT_DIR$/blog/symfony.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog/templates/base.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/blog/templates/base.html.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog/templates/blog/home.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/blog/templates/blog/home.html.twig" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/blog/templates/blog/index.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/blog/templates/blog/index.html.twig" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -53,7 +44,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1645879818143</updated>
-      <workItem from="1645879820666" duration="7658000" />
+      <workItem from="1645879820666" duration="9176000" />
     </task>
     <task id="LOCAL-00001" summary="Ajout de la page d'accueil">
       <created>1645882514774</created>
@@ -62,7 +53,14 @@
       <option name="project" value="LOCAL" />
       <updated>1645882514774</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Ajout d'article">
+      <created>1645887924900</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1645887924900</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -70,7 +68,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Ajout de la page d'accueil" />
-    <option name="LAST_COMMIT_MESSAGE" value="Ajout de la page d'accueil" />
+    <MESSAGE value="Ajout d'article" />
+    <option name="LAST_COMMIT_MESSAGE" value="Ajout d'article" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
