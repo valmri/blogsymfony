@@ -1,13 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d70f44be-c220-4874-b0d1-6f032b3c0323" name="Changes" comment="Ajout d'article">
-      <change afterPath="$PROJECT_DIR$/blog/templates/blog/create.html.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
+    <list default="true" id="d70f44be-c220-4874-b0d1-6f032b3c0323" name="Changes" comment="Formulaire création d'article">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/config/packages/twig.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/blog/config/packages/twig.yaml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/blog/src/Controller/BlogController.php" beforeDir="false" afterPath="$PROJECT_DIR$/blog/src/Controller/BlogController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog/templates/base.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/blog/templates/base.html.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog/templates/blog/show.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/blog/templates/blog/show.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/templates/blog/create.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/blog/templates/blog/create.html.twig" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -156,7 +154,7 @@
       <option name="presentableId" value="Default" />
       <updated>1645879818143</updated>
       <workItem from="1645879820666" duration="9357000" />
-      <workItem from="1645982768576" duration="4125000" />
+      <workItem from="1645982768576" duration="5099000" />
     </task>
     <task id="LOCAL-00001" summary="Ajout de la page d'accueil">
       <created>1645882514774</created>
@@ -179,7 +177,14 @@
       <option name="project" value="LOCAL" />
       <updated>1645912194555</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Formulaire création d'article">
+      <created>1645987017909</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1645987017909</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -199,7 +204,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Ajout de la page d'accueil" />
     <MESSAGE value="Ajout d'article" />
-    <option name="LAST_COMMIT_MESSAGE" value="Ajout d'article" />
+    <MESSAGE value="Formulaire création d'article" />
+    <option name="LAST_COMMIT_MESSAGE" value="Formulaire création d'article" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

@@ -1,20 +1,21 @@
 {% extends 'base.html.twig'  %}
+
+{% form_theme formArt 'bootstrap_4_layout.html.twig' %}
+
 {% block body %}
 
     <h1>Créer un article :</h1>
 
     {{ form_start(formArt) }}
 
-    <div class="form-group">
-        <label for="">Titre</label>
-        {{ form_widget(formArt.title) }}
-    </div>
+    {{ form_row(formArt.title, {'attr': {'placeholder': "Titre de l'article"}}) }}
+    {{ form_row(formArt.content, {'attr': {'placeholder': "Contenu de l'article"}}) }}
+    {{ form_row(formArt.image, {'attr': {'placeholder': "Image de l'article"}}) }}
 
-    <div class="form-group">
-        <label for="">Contenu</label>
-        {{ form_widget(formArt.content) }}
-    </div>
+    <button type="submit" class="btn btn-success" style="margin-top: 10px">Ajouter l'article</button>
 
     {{ form_end(formArt) }}
+
+
 
 {% endblock %}
