@@ -14,6 +14,7 @@ use Symfony\Component\HttpFoundation\Request;
 use Symfony\Component\HttpFoundation\Response;
 use Symfony\Component\Routing\Annotation\Route;
 use Symfony\Component\Form\Extension\Core\Type\TextType;
+use App\Form\ArticleType;
 
 class BlogController extends AbstractController
 {
@@ -37,7 +38,8 @@ class BlogController extends AbstractController
     }
 
     #[Route('/blog/new', name: 'blog_create')]
-    public function create(Request $request, EntityManagerInterface $manager) {
+    #[Route('blog/{id}/edit', name: 'blog_edit')]
+    public function form(Article $article = null, Request $request, EntityManagerInterface $manager) {
         /* Première version
         if($request->request->count() > 0) {
 
@@ -54,13 +56,22 @@ class BlogController extends AbstractController
             return $this->redirectToRoute('blog_show', ['id' => $article->getId()]);
         }
         */
-        $article = new Article();
 
+
+        if( $article === null) {
+            $article = new Article();
+        }
+
+        /*
         $form = $this->createFormBuilder($article)
                      ->add('title')
                      ->add('content')
                      ->add('image')
                      ->getForm();
+        */
+
+        // Appel de la structure du formulaire généré avec la console
+        $form = $this->createForm(ArticleType::class, $article);
 
         // Association des données du formulaire à la classe Article
         $form->handleRequest($request);
@@ -68,6 +79,10 @@ class BlogController extends AbstractController
         //dump($article);
 
         if($form->isSubmitted() && $form->isValid()) {
+
+            if($article->getId()) {
+                $article->setCreatedAt(new \DateTime());
+            }
 
             // Ajout de la date actuelle à l'article
             $article->setCreatedAt(new \DateTime());
@@ -81,7 +96,8 @@ class BlogController extends AbstractController
         }
 
         return $this->render('blog/create.html.twig', [
-            'formArt' => $form->createView()
+            'formArt' => $form->createView(),
+            'editMode' => $article->getId() !== null
         ]);
     }
 

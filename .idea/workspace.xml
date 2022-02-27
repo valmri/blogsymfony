@@ -4,6 +4,8 @@
     <list default="true" id="d70f44be-c220-4874-b0d1-6f032b3c0323" name="Changes" comment="Formulaire création d'article">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/blog/src/Controller/BlogController.php" beforeDir="false" afterPath="$PROJECT_DIR$/blog/src/Controller/BlogController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/src/Entity/Article.php" beforeDir="false" afterPath="$PROJECT_DIR$/blog/src/Entity/Article.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/templates/blog/create.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/blog/templates/blog/create.html.twig" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -152,7 +154,7 @@
       <option name="presentableId" value="Default" />
       <updated>1645879818143</updated>
       <workItem from="1645879820666" duration="9357000" />
-      <workItem from="1645982768576" duration="5758000" />
+      <workItem from="1645982768576" duration="7426000" />
     </task>
     <task id="LOCAL-00001" summary="Ajout de la page d'accueil">
       <created>1645882514774</created>
@@ -189,7 +191,14 @@
       <option name="project" value="LOCAL" />
       <updated>1645988026980</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Formulaire création d'article">
+      <created>1645988620349</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1645988620349</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
