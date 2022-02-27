@@ -62,6 +62,23 @@ class BlogController extends AbstractController
                      ->add('image')
                      ->getForm();
 
+        // Association des données du formulaire à la classe Article
+        $form->handleRequest($request);
+
+        //dump($article);
+
+        if($form->isSubmitted() && $form->isValid()) {
+
+            // Ajout de la date actuelle à l'article
+            $article->setCreatedAt(new \DateTime());
+
+            // Envoie de l'article dans la BdD
+            $manager->persist($article);
+            $manager->flush();
+
+            return $this->redirectToRoute('blog_show', ['id' => $article->getId()]);
+
+        }
 
         return $this->render('blog/create.html.twig', [
             'formArt' => $form->createView()
