@@ -1,18 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d70f44be-c220-4874-b0d1-6f032b3c0323" name="Changes" comment="Formulaire création d'article">
+    <list default="true" id="d70f44be-c220-4874-b0d1-6f032b3c0323" name="Changes" comment="Contrôle des données saisies">
+      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog/src/Controller/BlogController.php" beforeDir="false" afterPath="$PROJECT_DIR$/blog/src/Controller/BlogController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/blog/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/blog/composer.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/src/DataFixtures/ArticleFixtures.php" beforeDir="false" afterPath="$PROJECT_DIR$/blog/src/DataFixtures/ArticleFixtures.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/blog/src/Entity/Article.php" beforeDir="false" afterPath="$PROJECT_DIR$/blog/src/Entity/Article.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog/templates/blog/create.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/blog/templates/blog/create.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/symfony.lock" beforeDir="false" afterPath="$PROJECT_DIR$/blog/symfony.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ComposerSettings">
+  <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
     <pharConfigPath>$PROJECT_DIR$/blog/composer.json</pharConfigPath>
     <execution />
   </component>
@@ -126,6 +130,7 @@
       <path value="$PROJECT_DIR$/blog/vendor/doctrine/collections" />
       <path value="$PROJECT_DIR$/blog/vendor/doctrine/cache" />
       <path value="$PROJECT_DIR$/blog/vendor/doctrine/annotations" />
+      <path value="$PROJECT_DIR$/blog/vendor/fakerphp/faker" />
     </include_path>
   </component>
   <component name="ProjectId" id="25eFnX2UgkAFJEbXLz7sWnhv8TN" />
@@ -142,7 +147,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="reference.idesettings.emmet.xml" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.DirectoryMappings" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -154,7 +159,11 @@
       <option name="presentableId" value="Default" />
       <updated>1645879818143</updated>
       <workItem from="1645879820666" duration="9357000" />
-      <workItem from="1645982768576" duration="7426000" />
+      <workItem from="1645982768576" duration="8755000" />
+      <workItem from="1646070433133" duration="4832000" />
+      <workItem from="1646244260979" duration="1426000" />
+      <workItem from="1646328535902" duration="2083000" />
+      <workItem from="1646471120240" duration="1814000" />
     </task>
     <task id="LOCAL-00001" summary="Ajout de la page d'accueil">
       <created>1645882514774</created>
@@ -198,7 +207,21 @@
       <option name="project" value="LOCAL" />
       <updated>1645988620349</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Contrôle des données saisies">
+      <created>1645990288259</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1645990288259</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Contrôle des données saisies">
+      <created>1645990307741</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1645990307741</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -216,10 +239,14 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$PROJECT_DIR$/test" />
+    </ignored-roots>
     <MESSAGE value="Ajout de la page d'accueil" />
     <MESSAGE value="Ajout d'article" />
     <MESSAGE value="Formulaire création d'article" />
-    <option name="LAST_COMMIT_MESSAGE" value="Formulaire création d'article" />
+    <MESSAGE value="Contrôle des données saisies" />
+    <option name="LAST_COMMIT_MESSAGE" value="Contrôle des données saisies" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
