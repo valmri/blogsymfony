@@ -1,15 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d70f44be-c220-4874-b0d1-6f032b3c0323" name="Changes" comment="Contrôle des données saisies">
-      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+    <list default="true" id="d70f44be-c220-4874-b0d1-6f032b3c0323" name="Changes" comment="Intégration des commentaires">
+      <change afterPath="$PROJECT_DIR$/blog/migrations/Version20220228180957.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/migrations/Version20220228182029.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/src/Entity/Category.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/src/Entity/Comment.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/src/Repository/CategoryRepository.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/src/Repository/CommentRepository.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/blog/composer.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/blog/composer.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog/src/DataFixtures/ArticleFixtures.php" beforeDir="false" afterPath="$PROJECT_DIR$/blog/src/DataFixtures/ArticleFixtures.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog/src/Entity/Article.php" beforeDir="false" afterPath="$PROJECT_DIR$/blog/src/Entity/Article.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog/symfony.lock" beforeDir="false" afterPath="$PROJECT_DIR$/blog/symfony.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/src/Form/ArticleType.php" beforeDir="false" afterPath="$PROJECT_DIR$/blog/src/Form/ArticleType.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/templates/blog/create.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/blog/templates/blog/create.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/templates/blog/show.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/blog/templates/blog/show.html.twig" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -163,7 +165,7 @@
       <workItem from="1646070433133" duration="4832000" />
       <workItem from="1646244260979" duration="1426000" />
       <workItem from="1646328535902" duration="2083000" />
-      <workItem from="1646471120240" duration="1814000" />
+      <workItem from="1646471120240" duration="3448000" />
     </task>
     <task id="LOCAL-00001" summary="Ajout de la page d'accueil">
       <created>1645882514774</created>
@@ -221,7 +223,14 @@
       <option name="project" value="LOCAL" />
       <updated>1645990307741</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Création de fixtures (fausses données)">
+      <created>1646473392717</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1646473392717</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -246,7 +255,9 @@
     <MESSAGE value="Ajout d'article" />
     <MESSAGE value="Formulaire création d'article" />
     <MESSAGE value="Contrôle des données saisies" />
-    <option name="LAST_COMMIT_MESSAGE" value="Contrôle des données saisies" />
+    <MESSAGE value="Création de fixtures (fausses données)" />
+    <MESSAGE value="Intégration des commentaires" />
+    <option name="LAST_COMMIT_MESSAGE" value="Intégration des commentaires" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

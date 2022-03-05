@@ -9,6 +9,7 @@
     {{ form_start(formArt) }}
 
     {{ form_row(formArt.title, {'attr': {'placeholder': "Titre de l'article"}}) }}
+    {{ form_row(formArt.category) }}
     {{ form_row(formArt.content, {'attr': {'placeholder': "Contenu de l'article"}}) }}
     {{ form_row(formArt.image, {'attr': {'placeholder': "Image de l'article"}}) }}
 
