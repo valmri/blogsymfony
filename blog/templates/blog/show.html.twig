@@ -1,4 +1,6 @@
 {% extends 'base.html.twig' %}
+
+
 {% block body %}
     <article>
         <h2>{{ article.title }}</h2>
@@ -10,6 +12,8 @@
     </article>
 
     <section id="commentaires">
+
+        {{ form(formComment) }}
 
         {% for comment in article.comments %}
         <div class="comment">

@@ -4,6 +4,8 @@ namespace App\Controller;
 
 use App\Entity\Article;
 use App\Repository\ArticleRepository;
+use App\Entity\Comment;
+use App\Repository\CommentRepository;
 
 use Doctrine\ORM\EntityManager;
 use Doctrine\ORM\EntityManagerInterface;
@@ -15,6 +17,7 @@ use Symfony\Component\HttpFoundation\Response;
 use Symfony\Component\Routing\Annotation\Route;
 use Symfony\Component\Form\Extension\Core\Type\TextType;
 use App\Form\ArticleType;
+use App\Form\CommentType;
 
 class BlogController extends AbstractController
 {
@@ -106,9 +109,18 @@ class BlogController extends AbstractController
 
         $monArticle = $articleRepo->find($id);
 
+        // Création du formulaire
+        $comment = new Comment();
+        $formCom = $this->createForm(CommentType::class, $comment);
+        //dump($formCom);
+
+
+
         return $this->render('blog/show.html.twig', [
-            'article' => $monArticle
+            'article' => $monArticle,
+            'formComment' => $formCom->createView()
         ]);
     }
+
 
 }
